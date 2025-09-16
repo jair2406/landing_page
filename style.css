@@ -1,0 +1,140 @@
+    *{
+        margin: 0;
+        padding: 0;
+        }
+    header{
+        background-color: rgb(0, 162, 255); 
+    }
+
+    main{
+    background-color:  rgb(0, 162, 255);
+    
+    }
+    nav{
+        background-color: rgb(0, 162, 255);
+        height: 35px;
+        
+    }
+    ul{
+        color: aquamarine;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        list-style-type: none;
+    }
+    
+    h1{
+        height: 100px;
+    }
+    #charmander{
+        background-color: red;
+
+    }
+    #bulbasaur{
+        background-color: green;
+
+    }
+    #squirtle{
+        background-color: blue;
+
+    }
+    #pikachu{
+        background-color: yellow;
+
+    }
+    .logotipo{
+        width: 100px;
+    }
+    .menu a{
+        text-decoration: none;
+    }
+    p{ 
+        font-size: 30px;
+    }
+    body{
+        text-align: center;
+    }
+    .menu a:hover{
+        text-decoration-line: underline;
+    }
+    .texto_1{
+        background-color: rgb(163, 29, 29) ;
+        margin: 0 50px 0 50px;
+        padding: 20px;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+   .texto_1:hover{
+        background-color: rgb(92, 1, 1);
+   }
+   .texto_2{
+    background-color: green ;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.texto_2:hover{
+    background-color: rgb(1, 43, 1);
+}
+.texto_3{
+    background-color: blue ;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.texto_3:hover{
+    background-color: rgb(20, 0, 92);
+}
+.texto_4{
+    background-color: yellow ;
+    margin: 0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.texto_4:hover{
+    background-color: rgb(110, 110, 0);
+}
+#vendas{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+background-color: rgb(223, 0, 223);
+width: 350px;
+border-radius: 8px;
+margin: 30px;
+transition: 0.5s;
+min-height: 650px;
+}
+.card:hover{ 
+    background-color: purple;
+    transform: scale(1.05);
+}
+.card img{
+    width: 300px;
+    
+    padding: 10px;
+    
+}
+.compra{
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    font-size: 25px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.compra:hover{
+    background-color: rgb(0, 0, 173);
+    transform: scale(1.05);
+}
